@@ -1,1 +1,69 @@
+.static {
+position: fixed !important;
+top: 0px important!;
+background-color: rgba(240, 240, 240, 0.9); !important;
+  padding: 10px 3px;
+  text-align: left;
+   width: 80px; 
+   height: 120px;
+   border: 3px solid red;
+   border-radius: 10px;
+   z-index: 10000;
+}
+
+.static label {
+padding: 5px;
+margin: 3px;
+}
+
+/* Settings */
+/* Contrast */
+.a11y-contrast body {
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none; 
+}
+
+
+/* linkuri */  
+.a11y-contrast a:link {
+  color: #00ff00;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.a11y-contrast a:visited {
+  color: #ff00bf;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.a11y-contrast a:hover {
+  color: #ff0040;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.a11y-contrast a:active {
+  color: #ffff26;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+/* Large text */
+.a11y-large-text {
+  font-size: 30px !important;
+  font-size: var(--font-size) !important;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+}
+
 
