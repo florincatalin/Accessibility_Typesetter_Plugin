@@ -8,7 +8,7 @@ Author: Florin-Cătălin Tofan, ©2022
 * [Typesetter on GitHub](https://github.com/Typesetter/Typesetter)
 
 ## Current Version 
-1.0
+1.1
 
 ## Requirements ##
 * Typesetter CMS
