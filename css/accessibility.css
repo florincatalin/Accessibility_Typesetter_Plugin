@@ -1,19 +1,27 @@
 .static {
-position: fixed !important;
-top: 0px important!;
+position: fixed;
+top: 30vh;
 background-color: rgba(240, 240, 240, 0.9); !important;
   padding: 10px 3px;
   text-align: left;
-   width: 80px; 
-   height: 120px;
+   width: 70px; 
+   height: 100px;
    border: 3px solid red;
    border-radius: 10px;
    z-index: 10000;
+
+display: grid;
+align-items: center;
 }
 
 .static label {
 padding: 5px;
 margin: 3px;
+}
+
+.acm {
+        display: flex;
+        align-items: center;
 }
 
 /* Settings */
