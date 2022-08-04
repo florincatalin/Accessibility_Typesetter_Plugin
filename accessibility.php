@@ -12,19 +12,18 @@ class Accessibility{
 	$page->head .= '<script type="text/javascript" src="'.$addonRelativeCode.'/js/accessibility.js"></script>';
 
 		//html contents of the page
-echo  '<div class="static">';
+echo  '<div id="acc" class="static">';
 
-echo  '<span>';
+echo  ' <div class="acm">';
 echo    '<input type="checkbox" id="grayscale" value="a11y-contrast">';
 echo    '<label for="grayscale"><img src="' . $addonRelativeCode . '/img/contrast.png" width="32" height="32" /></label>';  
-echo  '</span>';
+echo  '</div>';
 
-echo  '<span>';
+echo  '<div class="acm">';
 echo    '<input type="checkbox" id="large-text" value="a11y-large-text">';
 echo    '<label for="large-text"><img src="' . $addonRelativeCode . '/img/font.png" width="32" height="32" /></label>';
-echo  '</span>';
+echo  '</div>';
   
 echo  '</div>';
   }
 }
-
