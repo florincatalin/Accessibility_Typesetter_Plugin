@@ -3,9 +3,7 @@ defined('is_running') or die('Not an entry point...');
 
 class Accessibility{
 
-  /**
-   * Typesetter action hook
-   */
+  /*  Typesetter action hook */
   public static function GetHead(){
     global $page, $addonRelativeCode;
 	$page->head .= '<link rel="stylesheet" href="' . $addonRelativeCode . '/css/accessibility.css">';
@@ -22,6 +20,16 @@ echo  '</div>';
 echo  '<div class="acm">';
 echo    '<input type="checkbox" id="large-text" value="a11y-large-text">';
 echo    '<label for="large-text"><img src="' . $addonRelativeCode . '/img/font.png" width="32" height="32" /></label>';
+echo  '</div>';
+
+echo  ' <div class="acm">';
+echo    '<input type="checkbox" id="black-white" value="a11y-black-white">';
+echo    '<label for="black-white"><img src="' . $addonRelativeCode . '/img/blackwhite.png" width="32" height="32" /></label>';  
+echo  '</div>';
+
+echo  ' <div class="acm">';
+echo    '<input type="checkbox" id="black-white" value="a11y-notransition">';
+echo    '<label for="black-white"><img src="' . $addonRelativeCode . '/img/pause.png" width="32" height="32" /></label>';  
 echo  '</div>';
   
 echo  '</div>';

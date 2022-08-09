@@ -20,3 +20,5 @@ Author: Florin-Cătălin Tofan, ©2022
 3. Install using Typesetter's Admin Toolbox - Plugins - Manage - Available - Accessibility
 
 Vote me on GitHub if it is useful for you or fork this repository if you feel inspired!
+
+ 
