@@ -26,7 +26,7 @@ margin: 3px;
 
 /* Settings */
 /* Contrast */
-.a11y-contrast {
+.a11y-contrast body {
   color: #ffffff;
   background-color: #000000;
   text-decoration: none; 
@@ -35,25 +35,25 @@ margin: 3px;
 
 /* linkuri */  
 .a11y-contrast a:link {
-  color: #000066 ;
+  color: #888888 ;
   background-color: transparent;
   text-decoration: underline;
 }
 
 .a11y-contrast a:visited {
-  color: #200040;
+  color: #222222;
   background-color: transparent;
   text-decoration: none;
 }
 
 .a11y-contrast a:hover {
-  color: #444444;
+  color: #ffffff;
   background-color: transparent;
   text-decoration: underline;
 }
 
 .a11y-contrast a:active {
-  color: #00664c;
+  color: #bdbdae;
   background-color: transparent;
   text-decoration: underline;
 }
