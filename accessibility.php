@@ -28,8 +28,8 @@ echo    '<label for="black-white"><img src="' . $addonRelativeCode . '/img/black
 echo  '</div>';
 
 echo  ' <div class="acm">';
-echo    '<input type="checkbox" id="black-white" value="a11y-notransition">';
-echo    '<label for="black-white"><img src="' . $addonRelativeCode . '/img/pause.png" width="32" height="32" /></label>';  
+echo    '<input type="checkbox" id="notransition" value="a11y-notransition">';
+echo    '<label for="notransition"><img src="' . $addonRelativeCode . '/img/pause.png" width="32" height="32" /></label>';  
 echo  '</div>';
   
 echo  '</div>';
