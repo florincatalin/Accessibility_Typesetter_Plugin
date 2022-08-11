@@ -1,1 +1,108 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+}
+
+
+#accico {
+position: fixed;
+top: 1vh;
+left: 1vw;
+   z-index: 10000;
+}
+
+#acc {
+position: fixed;
+top: 30vh;
+left: 1vw;
+background-color: rgba(240, 240, 240, 0.9); 
+width: 45px; 
+height: 220px;
+border: 3px solid black;
+border-radius: 10px;
+text-align: center;
+z-index: 10001;
+}
+
+.acm {
+margin: 3px;
+}
+
+/* Settings */
+/* Contrast */
+.a11y-contrast body {
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none; 
+}
+
+
+/* linkuri */  
+.a11y-contrast a:link {
+  color: #888888 ;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.a11y-contrast a:visited {
+  color: #222222;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.a11y-contrast a:hover {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.a11y-contrast a:active {
+  color: #bdbdae;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+/* Large text */
+.a11y-large-text {
+  font-size: 30px !important;
+  font-size: var(--font-size) !important;
+}
+
+/*black and white */
+/*sel al ell except - evitare decalaj */
+.a11y-black-white body>*:not(#acc) {
+    -moz-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: gray; /* IE6-9 */
+    filter: grayscale(100%);
+}
+
+.a11y-notransition body>* {
+/* no animation ! */
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+/* no transition ! */
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+/* no transformation ! */
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+}
+
+.a11y-notransition body > div:hover:not(#acc) {
+pointer-events: none;
+}
 
