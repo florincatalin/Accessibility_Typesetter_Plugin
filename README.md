@@ -22,14 +22,14 @@ Author: Florin-Cătălin Tofan, ©2022
 
 ## v.2.1 Fixing the fact that the text passed to the alt attribute (for menu icons) does not appear in Firefox or Google Chrome
 
-* Mozilla Firefox, Google Chrome, and other browsers do not display the text used in the alt attribute when hovering over an image, like MSIE browser. Firefox, Chrome, and other browsers (except MSIE) follow the W3C standards for HTML, which states that an image should have title attribute for balloon text. For that reason, these browsers do not display the alt text on hovering over the image.
+* Mozilla Firefox, Google Chrome, and other browsers do not display the text used in the **alt** attribute when hovering over an image, like MSIE browser. Firefox, Chrome, and other browsers (except MSIE) follow the W3C standards for HTML, which states that an image should have title attribute for balloon text. For that reason, these browsers do not display the alt text on hovering over the image.
 
-* The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element. The title attribute is part of the global attributes, and can be used on any HTML element.
+* The **title** attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element. The title attribute is part of the global attributes, and can be used on any HTML element.
 
 * For all browser we must use image with both alt and title attributes to shows balloon text when mouse hover over image. 
 
 Example:
-<img alt="alt text for image" title="title text for image" src="image location">
+```  <img alt="alt text for image" title="title text for image" src="image location"> ``` 
 
 * Adding the title attribute displays balloon text when the mouse hovers over the image in Firefox, Google Chrome, Opera or other modern browsers and alt attribute do the same in MSIE.
 
