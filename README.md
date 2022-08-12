@@ -37,4 +37,4 @@ Example:
 
 Vote me on GitHub if it is useful for you or fork this repository if you feel inspired!
 
-![image](https://github.com/florincatalin/Accessibility_Typesetter_Plugin/blob/main/accessibility.gif)
+![image](https://github.com/florincatalin/Accessibility_Typesetter_Plugin/blob/wai/wai_demo.gif)
